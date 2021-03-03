@@ -1,0 +1,10 @@
+1.  Lights for Play, Record, Stop and '>' buttons.
+    '>' is programmed for PAT/SONG toggle, so it should be orange when in Pattern mode and Green when in Song Mode.
+    Play and Record should be in bright white when active. Play should dim when paused and colorless when stopped.
+    Stop should be red and flash once in white/green when pressed.
+
+2.  Currently, the 8 knobs are controlling the mixer track volumes from the selected mixer track to the 8th track from the selected track.
+    If the selected track is 5th then it will control volumes of track number 5 to 12 (8 in total).
+    Task is to add some kind of switch that toggle the knobs to change panning value instead of volumes.
+    
+3.  
