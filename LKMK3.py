@@ -1,5 +1,4 @@
 # name=LK MK3 2.0 By Myke
-# url=https://forum.image-line.com/viewtopic.php?p=1490365#p1490365
 
 import ui 	# The script will use UI functions 
 import midi	# The script will use MIDI functions.  
@@ -17,18 +16,8 @@ import channels
 # or 111 in decimal.
 
 ''' 
-NOTES
-
-Any button on a MIDI is a Control Change
-Any pad is NOTE ON or OFF
 
 FOR FPT Controls, use transport.globalTransport(midi.FPT_FuncName, 1)
-'''
-
-'''
-TO DO:
-
-Use Tab left and right button as solo and mute tracks.
 
 '''
 
@@ -269,7 +258,7 @@ class LKMK3():
 
 
 '''
-# CODE FOR MIXER NAVIGATION
+# CODE FOR MIXER NAVIGATION yet to be checked
 
 				elif event.data1 == PAD12:
 					print('D')
